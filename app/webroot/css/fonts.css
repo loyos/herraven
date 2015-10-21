@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Aller';
+    src:url('fonts/aller-rg-webfont.woff') format('woff'),
+        url('fonts/aller-rg.ttf') format('truetype');
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src:url('fonts/aller-bd-webfont.woff') format('woff'), 
+        url('fonts/aller-bd.ttf') format('truetype');
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src:url('fonts/aller-lt-webfont.woff') format('woff'), 
+         url('fonts/aller-lt.ttf') format('truetype');
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src:url('fonts/cinzel-regular-webfont.woff') format('woff'),  
+        url('fonts/cinzel-regular.ttf') format('truetype');
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src:url('fonts/cinzel-bold-webfont.woff') format('woff'),  
+         url('fonts/cinzel-bold.ttf') format('truetype');
+    font-weight:bold;
+}

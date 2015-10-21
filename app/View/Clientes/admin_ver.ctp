@@ -1,0 +1,81 @@
+<div class="wrap">
+<?php
+echo $this->Html->link('Regresar',array('action' => 'admin_index'),array('class'=>'boton'));
+?>
+<h1>Cliente</h1>
+<?php 
+	echo '<table  class="tabla_ver">';
+	echo '<tr>';
+	echo '<th>Denom. legal</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['denominacion_legal'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Dirección de despacho</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['direccion_despacho'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Rif</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['rif'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Teléfono</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['telefono_uno'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Representante</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['representante'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Telefono</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['telefono_dos'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr><th>Ciudad</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['ciudad'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Fax</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['fax'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Direccion</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['direccion'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Email de representate</th>';
+	echo '<td>';
+	echo $cliente['Cliente']['email_representante'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Lista de precio</th>';
+	echo '<td>';
+	echo $cliente['Precio']['descripcion'];
+	echo '</td>';
+	echo '</tr>';
+	echo '<tr>';
+	echo '<th>Sitio Web</th>';
+	echo '<td>';	
+	echo $cliente['Cliente']['sitio_web'];
+	echo '</td>';
+	echo '</tr>';
+	echo '</table>';
+?>
+</div>
