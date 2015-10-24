@@ -52335,3 +52335,41 @@ Stack Trace:
 #12 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #13 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2015-10-24 06:00:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-24 06:00:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-24 06:02:12 Error: [MissingControllerException] Controller class AsistnciasController could not be found.
+Exception Attributes: array (
+  'class' => 'AsistnciasController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/asistncias/
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-24 06:02:19 Error: [MissingActionException] Action AsistenciasController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AsistenciasController',
+  'action' => 'index',
+)
+Request URL: /herraven/asistencias/
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(373): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(AsistenciasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
