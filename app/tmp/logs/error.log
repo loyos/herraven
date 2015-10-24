@@ -52413,3 +52413,25 @@ Request URL: /herraven/img/users/logo-redes.png
 Stack Trace:
 #0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-10-24 20:03:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /herraven/inventariomateriasproduccions/admin_index
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Model\Datasource\DboSource.php(523): Mysql->connect()
+#1 C:\xampp\htdocs\herraven\lib\Cake\Model\ConnectionManager.php(213): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6441): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(2215): Model->setDataSource('default')
+#4 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6485): Model->setSource('modulos_rols')
+#5 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(5391): Model->getDataSource()
+#6 C:\xampp\htdocs\herraven\app\Controller\AppController.php(125): Model->find('all', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 C:\xampp\htdocs\herraven\lib\Cake\Event\CakeEventManager.php(495): call_user_func(Array, Object(CakeEvent))
+#9 C:\xampp\htdocs\herraven\lib\Cake\Controller\Controller.php(1339): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(367): Controller->startupProcess()
+#11 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(InventariomateriasproduccionsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
