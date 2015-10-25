@@ -12,7 +12,9 @@ if (!empty($entradas)) {
 	<th>Acciones</th>
 	</tr>
 	<?php
+
 	foreach($entradas as $key => $m) {
+		// echo "<pre>"; print_r($m);echo "</pre>";die;
 		if (!empty($m[0][0]['SUM(`Inventarioinsumo`.`cantidad`)'])) {
 			$entrada1 = $m[0][0]['SUM(`Inventarioinsumo`.`cantidad`)'];
 			//$entrada = number_format($entrada1,2,',','.');
@@ -58,10 +60,11 @@ if (!empty($entradas)) {
 		echo '<td>'.number_format($entrada1,2,',','.').'</td>';
 		echo '<td>'.number_format($salida1,2,',','.').'</td>';
 		echo '<td>'.$saldo.'</td>';
-		echo '<td>'.$this->Html->link('Consultar',array('action' => 'admin_consultar_movimientos',$id_m,$m[0]['Inventarioinsumo']['trimestre'],$ano),array('class'=>'boton_accion')).'</td>';
+		echo '<td>'.$this->Html->link('Consultar',array('action' => 'admin_consultar_movimientos',$id_m,(!empty($m[0]['Inventarioinsumo']['trimestre']) ? $m[0]['Inventarioinsumo']['trimestre'] : 1),$ano),array('class'=>'boton_accion')).'</td>';
 		echo '</tr>';
 	}
 	echo '</table>';
+
 } else {
 	echo 'No hay movimientos registrados';
 }
