@@ -63604,3 +63604,270 @@ Request URL: /herraven/img/users/logo-redes.png
 Stack Trace:
 #0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-10-25 20:48:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /herraven/almacenclientes/admin_listar_clientes
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Model\Datasource\DboSource.php(523): Mysql->connect()
+#1 C:\xampp\htdocs\herraven\lib\Cake\Model\ConnectionManager.php(213): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6441): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(2215): Model->setDataSource('default')
+#4 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6485): Model->setSource('modulos_rols')
+#5 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(5391): Model->getDataSource()
+#6 C:\xampp\htdocs\herraven\app\Controller\AppController.php(125): Model->find('all', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 C:\xampp\htdocs\herraven\lib\Cake\Event\CakeEventManager.php(495): call_user_func(Array, Object(CakeEvent))
+#9 C:\xampp\htdocs\herraven\lib\Cake\Controller\Controller.php(1339): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(367): Controller->startupProcess()
+#11 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(AlmacenclientesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-10-25 23:09:49 Error: Fatal Error (4): syntax error, unexpected '$arreglo_comisiones' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xampp\htdocs\herraven\app\Model\Cliente.php, line 169]
+2015-10-25 23:09:49 Error: [FatalErrorException] syntax error, unexpected '$arreglo_comisiones' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /herraven/clientes/admin_index
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Error\ErrorHandler.php(367): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169, Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Core\App.php(1853): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 169, Array)
+#3 C:\xampp\htdocs\herraven\lib\Cake\Core\App.php(1799): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-25 23:27:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:27:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:38:36 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\xampp\htdocs\herraven\app\View\Almacenclientes\admin_listar_clientes.ctp, line 10]
+2015-10-25 23:38:36 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /herraven/almacenclientes/admin_listar_clientes
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Error\ErrorHandler.php(367): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Core\App.php(1853): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\herraven\lib\Cake\Core\App.php(1799): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H001%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H003%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H002%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H006%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H004%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H005%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H007%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H001%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/1.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H008%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/Logotipo%20de%20la%20empresa.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H012%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H014%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H015%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H017%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H031%20para%20cinturon%20de%2040%20P.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H032.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H37.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H038.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H039-40.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H040-40.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H042.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 23:41:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H043.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

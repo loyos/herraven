@@ -67,7 +67,12 @@ $(document).ready(function() {
      $('#tabla_index').DataTable( {
         "paging":   false,	
         "info":     false,
-        "bFilter": false
+        "bFilter": false,
+        "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                    
+            $('td', nRow).css('background-color', '#E5E5E5');
+                   
+         }
     } );
     
 
