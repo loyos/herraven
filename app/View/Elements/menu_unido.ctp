@@ -51,7 +51,7 @@
 		</ul>
 	</li>
 	<li class = "has-sub <?php if($this->params['controller'] == 'proveedors') echo 'active'; ?>">
-		<a href='#'><span>Proveedores</span></a>
+		<a href='#'><span>Suministros</span></a>
 		<ul>
 			<li class = "children <?php if(($this->params['controller'] == 'proveedors' && $this->params['action'] == 'admin_index') || ($this->params['controller'] == 'proveedors' && $this->params['action'] == 'admin_editar') || ($this->params['controller'] =='proveedors' && $this->params['action'] == 'admin_ver')) echo 'active'; else echo 'inactive'; ?>">
 				<?php echo $this->Html->link('Proveedores',array('controller' => 'proveedors', 'action' => 'admin_index')); ?>

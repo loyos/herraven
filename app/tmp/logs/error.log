@@ -62600,3 +62600,957 @@ Request URL: /herraven/img/articulos/H043.png
 Stack Trace:
 #0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H001%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H002%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H005%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H003%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H006%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H004%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H007%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H001%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H008%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H012%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H014%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H015%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H017%20para%20cinturon%20de%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H031%20para%20cinturon%20de%2040%20P.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H032.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H37.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H038.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H039-40.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H040-40.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H042.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/H043.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:20:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/articulos/1.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H002%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H002.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Logotipo%20de%20empresa.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H004%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H005%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H007%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H008%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H002%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H012%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H012.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H015%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H015.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H016%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H029%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H032%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H032.1%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H032.2%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H033%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H033.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H035%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H037%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H037%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H038%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H039%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H040%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H041%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H037.1%20para%20hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H042%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H042.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H042.2%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H042.2.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.2.1%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.2.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20SC%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.1%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.2.2%20para%20Hebilla%2040%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H044%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H041%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H006%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H012%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H015%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H016%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H016%20para%20Hebilla%2030%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H020%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H025%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H027%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H038%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H039%20para%20Hebilla%2035%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H006%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H006.1%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H030%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H033%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H039%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.1%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.2.1%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H043.2.2%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H018%20%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H021%20%20para%20hebilla%2030mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001%20para%20hebilla%2025mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001.1%20para%20hebilla%2025mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001.2%20para%20hebilla%2025mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H002para%20hebilla%2025mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H004%20para%20hebilla%2025%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H004.1%20para%20hebilla%2025%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H005%20para%20hebilla%2025%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H002%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003.%201%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003.%201.1%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H004%20para%20hebilla%2020%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H001%20para%20hebilla%2015%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20H003%20para%20hebilla%2015%20mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20P002%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20P006.1%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20P007%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-25 15:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/moldes/Molde%20P003%20para%20hebilla%2040mm.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
