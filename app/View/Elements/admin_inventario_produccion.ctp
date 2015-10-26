@@ -11,22 +11,22 @@
 	foreach($materiasprima as $m) {
 		if (!empty( $entradas_materia[$m['Materiasprimasproduccion']['id']][0][0]['SUM(`Inventariomateriasproduccion`.`cantidad`)'])) {
 			$entrada1 = $entradas_materia[$m['Materiasprimasproduccion']['id']][0][0]['SUM(`Inventariomateriasproduccion`.`cantidad`)'] ;
-			//$entrada = number_format($entrada1,2,',','.');
-			$entrada = $entrada1;
+			$entrada = number_format($entrada1,2,',','.');
+			// $entrada = $entrada1;
 		} else {
 			$entrada1 = 0;
 			$entrada = 0;
 		}
 		if (!empty($salidas_materia[$m['Materiasprimasproduccion']['id']][0][0]['SUM(`Inventariomateriasproduccion`.`cantidad`)'])){
 			$salida1 = $salidas_materia[$m['Materiasprimasproduccion']['id']][0][0]['SUM(`Inventariomateriasproduccion`.`cantidad`)'];
-			//$salida = number_format($salida1,2,',','.');
-			$salida = $salida1;
+			$salida = number_format($salida1,2,',','.');
+			// $salida = $salida1;
 		} else {
 			$salida1 = 0;
 			$salida = 0;
 		}
 		$saldo = $entrada1 -$salida1;
-		//$saldo = number_format($saldo,2,',','.');
+		$saldo = number_format($saldo,2,',','.');
 		echo '<tr>';
 		echo '<td style="text-align:center; padding: 5px;">'.$this->Html->link('Editar MP',array('controller' => 'materiasprimasproduccions','action' => 'admin_editar',$m['Materiasprimasproduccion']['id']),array('class'=>'boton_accion')).'</td>';
 		echo '<td style="text-align:center; padding: 5px;">'.$m['Materiasprimasproduccion']['descripcion'].'</td>';

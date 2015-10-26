@@ -2,7 +2,7 @@
 <table>
 	<tr>
 		<th style="border-bottom:2px solid black; padding: 5px;">Ventas Acumuladas</th>
-		<th style="border-bottom:2px solid black; padding: 5px;">Ano</th>
+		<th style="border-bottom:2px solid black; padding: 5px;">A&ntilde;o</th>
 	</tr>
 	<tr>
 		<td style="text-align:center; padding: 5px;"><?php echo $this->Herra->format_number($total_ventas).' Bs'?></td>

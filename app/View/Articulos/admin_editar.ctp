@@ -1,6 +1,12 @@
 <div class="wrap">
 <?php
-echo $this->Html->link('Regresar',array('action' => 'admin_index',$cat_id,$sub_id),array('class'=>'boton'));
+if (!empty($this->data['Articulo']['subcategoria_id'])) {
+	echo $this->Html->link('Regresar',array('action' => 'admin_ver',$this->data['Articulo']['id'],$cat_id,$sub_id),array('class'=>'boton'));
+}else{
+
+	echo $this->Html->link('Regresar',array('action' => 'admin_index',$cat_id,$sub_id),array('class'=>'boton'));
+}
+
 $materias = array();
 ?>
 <h1><?php echo $titulo?></h1>
@@ -8,7 +14,7 @@ $materias = array();
 	if (!empty($this->data['Articulo']['subcategoria_id'])) {
 		$subcategoria_id = $this->data['Articulo']['subcategoria_id'];
 	} else {
-		$subcategoria_id = 0;
+		$subcategoria_id = $sub_id;
 	}
 	echo $this->Form->create('Articulo', array('type' => 'file'));
 	echo '<table>';
@@ -346,11 +352,9 @@ $(document).ready(function() {
 	buscar_acabados();
 	es_exclusivo();
 })
-
 $('#es_exclusivo').change(function(){
 	es_exclusivo();
 });
-
 function es_exclusivo(){
 	if ($('#es_exclusivo').is(':checked')){
 		$('#clientes_asociados').fadeIn();
@@ -359,11 +363,9 @@ function es_exclusivo(){
 		$('#clientes_asociados').fadeOut();
 	}
 }
-
 $('#categoria').change(function(){
 	buscar_subcat();
 });
-
 function buscar_subcat() {
 	var cate_id = $('#categoria').val();
 	$.ajax({
@@ -384,12 +386,9 @@ function buscar_subcat() {
 		});
 	});
 }
-
 $(".check_acabado").change(function() {
-
 	agregar_acabado(this)
 });
-
 function buscar_acabados(){
 	$.each($('.check_acabado'), function(index, value) {
 		if ($(value).is(':checked')){
@@ -397,7 +396,6 @@ function buscar_acabados(){
 		}
 	});
 }
-
 function agregar_acabado(el){
 		id_check = $(el).attr('id');
 		if ($('#tabla_'+id_check).length) { 
@@ -436,7 +434,6 @@ function agregar_acabado(el){
 			}
 		}
 }
-
 // function buscar_precio(){
 	// // $.each($('.check_acabado'), function(index, value) {
 		// // if ($(value).is(':checked')){
@@ -453,7 +450,6 @@ function agregar_acabado(el){
 	// // });
 	// //alert(precio);
 // }
-
 // function calcular_precio_acabados(input) {
 	// id_cantidad = $(input).attr('id');
 	// materia = $('select#'+id_cantidad).val();

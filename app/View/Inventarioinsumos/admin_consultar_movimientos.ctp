@@ -1,6 +1,6 @@
 <div class="wrap">
 	<?php
-	echo $this->Html->link('Regresar',array('action' => 'admin_movimientos',$nombre));
+	echo $this->Html->link('Regresar',array('action' => 'admin_movimientos',$lote_id, $nombre));
 	?>
 	<div class = "search">
 		<table>

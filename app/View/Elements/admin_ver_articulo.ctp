@@ -9,7 +9,6 @@
 			"../img/articulos/".$articulo['Articulo']['imagen'],
 			array('escape' => false, 'class'=>"fancybox primera",'data-fancybox-group' => '1',)
 	);
-	
 	if(!empty($articulo['Articulo']['imagen1'])) { 
 		echo $this->Html->link(
 			$this->Html->image('articulos/'.$articulo['Articulo']['imagen1'], array('style'=>'display:none')),
@@ -122,21 +121,21 @@
 		echo '</td>';
 		echo '</tr>';
 		echo '</table>';
-		echo '<h3>Precio de venta</h2>';
-		echo '<table class="tabla_ver">';
-		foreach ($costo_acabado as $a) {
-			echo '<tr>';
-			echo '<th style="text-align:right">'.$a['acabado'].':</th>';
-			echo '<td>';
-			$precio_materias = $a['monto']+$costo_materiaprima;
-			$costo_produccion = ($a['monto']+$costo_materiaprima)*($produccion/100);
-			$costo_total = $precio_materias + $costo_produccion;
-			$margen_ganancia = $costo_total * ($ganancia/100);
-			$precio_total = $costo_total + $margen_ganancia;
-			echo '<div>'.$this->Herra->format_number($precio_total).'</div>';
-			echo '</td>';
-			echo '</tr>';
-		}
+		// echo '<h3>Precio de venta</h2>';
+		// echo '<table class="tabla_ver">';
+		// foreach ($costo_acabado as $a) {
+		// 	echo '<tr>';
+		// 	echo '<th style="text-align:right">'.$a['acabado'].':</th>';
+		// 	echo '<td>';
+		// 	$precio_materias = $a['monto']+$costo_materiaprima;
+		// 	$costo_produccion = ($a['monto']+$costo_materiaprima)*($produccion/100);
+		// 	$costo_total = $precio_materias + $costo_produccion;
+		// 	$margen_ganancia = $costo_total * ($ganancia/100);
+		// 	$precio_total = $costo_total + $margen_ganancia;
+		// 	echo '<div>'.$this->Herra->format_number($precio_total).'</div>';
+		// 	echo '</td>';
+		// 	echo '</tr>';
+		// }
 		echo '</table>';
 		
 	} else {

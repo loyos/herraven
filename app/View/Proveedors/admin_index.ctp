@@ -2,7 +2,7 @@
 <?php
 echo $this->Html->link('Agregar',array('action' => 'admin_editar'),array('class'=>'boton'));
 ?>
-<h1>Proveedores</h1>
+<h1>Suministros</h1>
 <?php 
 	if (!empty($proveedores)) {
 		?>
