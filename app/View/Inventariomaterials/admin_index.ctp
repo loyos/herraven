@@ -4,7 +4,10 @@
 	echo $this->Html->link('Ingreso de materia prima',array('action' => 'admin_editar'),array('class'=>'boton'));
 	echo ' ';
 	echo $this->Html->link('Agregar nueva materia prima',array('controller' => 'materiasprimas','action' => 'admin_editar'),array('class'=>'boton'));
+	echo ' ';
+	echo $this->Html->link('Movimientos',array('controller' => 'inventariomaterials','action' => 'admin_movimientos'),array('class'=>'boton'));
 	echo '<br>';
+
 	?>
 </div>
 <div class="ano_inventario">
