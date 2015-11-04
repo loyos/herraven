@@ -1,7 +1,7 @@
 <div class= "search">
 	<?php			
 			echo $this->Form->create(null, array(
-				'url' => array_merge(array('action' => 'admin_catalogo'), $this->params['pass'])
+				//'url' => array_merge(array('action' => 'admin_catalogo'), $this->params['pass'])
 			));
 			echo "<table><tr>";
 			echo "<td>";

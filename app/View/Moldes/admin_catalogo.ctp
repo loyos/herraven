@@ -68,7 +68,8 @@ if (!empty($moldes)) {
 						echo $this->Form->input('Pedidosmolde.cantidad',array(
 							'label' => 'Inyecciones ',
 							'style' => 'width:35px',
-							'name' => 'cantidad['.$m['Molde']['id'].']'
+							'name' => 'cantidad['.$m['Molde']['id'].']',
+                            'id' => 'cantidad_'.$m['Molde']['id']
 						));
 						echo '<br>';
 						echo $this->Form->submit('Pedir',array('class' => 'button', 'onclick' => 'activar('.$m['Molde']['id'].')'));
@@ -94,6 +95,10 @@ if (!empty($moldes)) {
 <script>
 function activar(id){
 	val = $('input#activo_'+id).val('1');
+    if ($('#cantidad_'+id).val() <= 0) {
+        event.preventDefault();
+        alert('La cantidad debe ser mayor a 0');
+    }
 }
 </script>
 <script>

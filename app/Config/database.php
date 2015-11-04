@@ -61,7 +61,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'herrajes_herraven',
+		'database' => 'herraven',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
