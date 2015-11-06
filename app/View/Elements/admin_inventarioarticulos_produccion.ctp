@@ -2,6 +2,7 @@
 	<tr>
 	<th style="border-bottom:2px solid black; padding: 5px;">Código</th>
 	<th style="border-bottom:2px solid black; padding: 5px;">Descripción</th>
+	<th style="border-bottom:2px solid black; padding: 5px;">Materia Prima Asociada</th>
 	<th style="border-bottom:2px solid black; padding: 5px;">Total entradas</th>
 	<th style="border-bottom:2px solid black; padding: 5px;">Total salidas</th>
 	<th style="border-bottom:2px solid black; padding: 5px;">Saldo</th>
@@ -29,6 +30,7 @@
 		echo '<tr>';
 		echo '<td style="text-align:center; padding: 5px;">'.$a['Articulosproduccion']['codigo'].'</td>';
 		echo '<td style="text-align:center; padding: 5px;">'.$a['Articulosproduccion']['descripcion'].'</td>';
+		echo '<td style="text-align:center; padding: 5px;">'.$a['Materiasprimasproduccion']['descripcion'].'</td>';
 		echo '<td style="text-align:center; padding: 5px;">'.$entrada.'</td>';
 		echo '<td style="text-align:center; padding: 5px;">'.$salida.'</td>';
 		echo '<td style="text-align:center; padding: 5px;">'.$saldo.'</td>';

@@ -64087,3 +64087,66 @@ Request URL: /herraven/img/articulos/1.png
 Stack Trace:
 #0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-11-01 16:46:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /herraven/inventarioarticulosproduccions/admin_index
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Model\Datasource\DboSource.php(523): Mysql->connect()
+#1 C:\xampp\htdocs\herraven\lib\Cake\Model\ConnectionManager.php(213): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6441): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(2215): Model->setDataSource('default')
+#4 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6485): Model->setSource('modulos_rols')
+#5 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(5391): Model->getDataSource()
+#6 C:\xampp\htdocs\herraven\app\Controller\AppController.php(125): Model->find('all', Array)
+#7 [internal function]: AppController->beforeFilter(Object(CakeEvent))
+#8 C:\xampp\htdocs\herraven\lib\Cake\Event\CakeEventManager.php(495): call_user_func(Array, Object(CakeEvent))
+#9 C:\xampp\htdocs\herraven\lib\Cake\Controller\Controller.php(1339): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(367): Controller->startupProcess()
+#11 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(InventarioarticulosproduccionsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-11-06 15:06:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /herraven/
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\lib\Cake\Model\Datasource\DboSource.php(523): Mysql->connect()
+#1 C:\xampp\htdocs\herraven\lib\Cake\Model\ConnectionManager.php(213): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6441): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(2215): Model->setDataSource('default')
+#4 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(6485): Model->setSource('contenidos')
+#5 C:\xampp\htdocs\herraven\lib\Cake\Model\Model.php(5391): Model->getDataSource()
+#6 C:\xampp\htdocs\herraven\app\Controller\AppController.php(171): Model->find('first', Array)
+#7 C:\xampp\htdocs\herraven\app\Controller\HomeController.php(19): AppController->beforeFilter()
+#8 [internal function]: HomeController->beforeFilter(Object(CakeEvent))
+#9 C:\xampp\htdocs\herraven\lib\Cake\Event\CakeEventManager.php(495): call_user_func(Array, Object(CakeEvent))
+#10 C:\xampp\htdocs\herraven\lib\Cake\Controller\Controller.php(1339): CakeEventManager->dispatch(Object(CakeEvent))
+#11 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(367): Controller->startupProcess()
+#12 C:\xampp\htdocs\herraven\lib\Cake\Routing\Dispatcher.php(323): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-06 15:06:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-06 15:06:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /herraven/img/users/logo-redes.png
+Stack Trace:
+#0 C:\xampp\htdocs\herraven\app\webroot\index.php(219): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
