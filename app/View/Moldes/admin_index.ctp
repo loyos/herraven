@@ -1,10 +1,12 @@
 <div class="wrap">
+	<?php echo $this->element('search_catalogo_produccion'); ?>
 <div>
 	<?php echo $this->Html->link('Agregar',array('action' => 'admin_editar'),array('class'=> 'boton')); ?>
 	<br><br>
 </div>
 <?php
 if (!empty($moldes)) {
+	// echo "<pre>"; print_r($moldes); echo "</pre>";die;
 	foreach ($moldes as $m) { ?>
 		<div class = "index_molde">
 			<div class="imagen_molde fotos" style = "float:left">
@@ -41,12 +43,14 @@ if (!empty($moldes)) {
 						<th>Medidas</th>
 						<th>Cavidades</th>
 						<th>Ubicación</th>
+						<th>Estado</th>
 					</tr>
 					<tr>
 						<td><?php echo $m['Molde']['codigo']?></td>
 						<td><?php echo $m['Molde']['medidas']?></td>
 						<td><?php echo $m['Molde']['cavidades']?></td>
 						<td><?php echo $m['Molde']['ubicacion']?></td>
+						<td><?php echo ($m['Molde']['estatus'] == null ) ? "Activo" : $m['Molde']['estatus']?></td>
 					</tr>
 					<tr>
 						<th style ="padding-top: 42px;">Anotaciones</th>
