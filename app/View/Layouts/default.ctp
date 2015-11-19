@@ -45,9 +45,11 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	echo $this->Html->css('fancybox/jquery.fancybox');
 	echo $this->Html->css('fancybox/jquery.fancybox-buttons');
 	echo $this->Html->css('fancybox/jquery.fancybox-thumbs');
+	//echo $this->Html->css('bootstrap/css/bootstrap');
 	echo $this->Html->script('jquery-2.0.2.min');
 	echo $this->Html->script('menu_jquery');
 	echo $this->Html->script('fancybox/jquery.fancybox');	
+	//echo $this->Html->script('bootstrap/js/bootstrap');	
 	echo $this->Html->script('fancybox/jquery.fancybox-buttons');	
 	echo $this->Html->script('fancybox/jquery.fancybox-thumbs');	
 	echo $this->Html->script('fancybox/jquery.fancybox-media');	
