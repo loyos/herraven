@@ -1,10 +1,10 @@
 <div class="wrap">
 	<?php 
-	echo $this->Html->link('Regresar',array('action' => 'admin_listar_subcategorias',$precio['Precio']['id']),array('class'=>'boton')); 
+	echo $this->Html->link('Regresar',array('action' => 'admin_listar_subcategorias',$precio['Precio']['id']),array('class'=>'boton', 'style'=>'margin-right:5px')); 
 	if (empty($acabado_seleccionado)) {
 		$acabado_seleccionado = 10000;
 	}
-	echo '&nbsp';
+	echo '&nbsp&nbsp';
 	if (!empty($subcat)) {
 		echo $this->Html->link('Ver Reporte',array('action' => 'admin_ver',$id,$cat,$acabado_seleccionado,$subcat,'ext' => 'pdf'),array('target'=>'_blank','class'=>'boton'));
 	} else {
@@ -12,7 +12,7 @@
 	}
 	?>
 	
-	<div class = "search">
+	<div class = "search" style="float:none; margin-top:20px">
 		<?php
 			echo $this->Form->create('Precio');
 			if (!empty($this->data['Precio']['acabado_id'])) {
@@ -21,7 +21,7 @@
 				$value = 'Nada';
 			}
 			echo $this->Form->input('acabado_id',array('value' => $value,'label' => 'Selecciona un acabado'));
-			echo $this->Form->submit('Buscar',array('class' => 'boton_busqueda'));
+			echo $this->Form->submit('Buscar',array('class' => 'boton_busqueda','style'=>"float:none"));
 		?>
 	</div>
 <h1><?php echo $precio['Precio']['descripcion']?></h1>
@@ -44,12 +44,12 @@ if (!empty($acabado_seleccionado)) {
 	echo '</tr>';
 	foreach ($precio_articulo as $a){
 		echo '<tr>';
-		echo '<td>'.$a['codigo'].'</td>';
-		echo '<td>';
+		echo '<td style="text-align:center">'.$a['codigo'].'</td>';
+		echo '<td style="text-align:center">';
 		echo $this->Herra->format_number($a['precio']);
 		echo '</td>';
-		echo '<td>'.$a['cantidad'].'</td>';
-		echo '<td>'.$this->Herra->format_number($a['cantidad']*$a['precio']).'</td>';
+		echo '<td style="text-align:center">'.$a['cantidad'].'</td>';
+		echo '<td style="text-align:center">'.$this->Herra->format_number($a['cantidad']*$a['precio']).'</td>';
 		echo '</tr>';
 		echo '<tr>';
 	}

@@ -134,7 +134,10 @@ class PreciosController extends AppController {
 
 			$articulos = $this->Articulo->find('all',array(
 
-				'conditions' => array('Articulo.subcategoria_id' => $subcats)
+				'conditions' => array(
+					'Articulo.subcategoria_id' => $subcats,
+					'Articulo.oculto' => 0
+				)
 
 			));
 

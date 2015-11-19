@@ -12,10 +12,10 @@ if (!empty($acabado_seleccionado)) {
 	if (!empty($precio_articulo)) {
 	echo '<table  style="width:100%" class="tabla_index">';
 	echo '<tr>';
-		echo '<th>Codigo</th>';
-		echo '<th>Precio</th>';
-		echo '<th>Pz. por Caja</th>';
-		echo '<th>Precio Caja</th>';
+		echo '<th style="text-align:left">Codigo</th>';
+		echo '<th style="text-align:left">Precio</th>';
+		echo '<th style="text-align:left">Pz. por Caja</th>';
+		echo '<th style="text-align:left">Precio Caja</th>';
 	echo '</tr>';
 	foreach ($precio_articulo as $a){
 		echo '<tr>';

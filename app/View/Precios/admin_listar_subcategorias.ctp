@@ -2,7 +2,8 @@
 <?php
 foreach ($categorias as $cat) {
 	echo '<div class="listado_categoria">';
-		echo $this->Html->link($cat['Categoria']['descripcion'], array('action' => 'admin_ver',$id,$cat['Categoria']['id'],10000));
+		//echo $this->Html->link($cat['Categoria']['descripcion'], array('action' => 'admin_ver',$id,$cat['Categoria']['id'],10000));
+		echo $cat['Categoria']['descripcion'];
 	echo '</div>';
 	echo '<br>';
 	echo '<div class="listado_subcategoria">';
