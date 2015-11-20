@@ -53,6 +53,7 @@ if (!empty($articulos)) {
 						echo $this->Form->input('cantidad',array(
 							'label' => 'Cantidad ',
 							'style' => 'width:35px',
+							'required' => false,
 							'name' => 'cantidad1['.$m['Articulosproduccion']['id'].']',
 							'id' => $m['Articulosproduccion']['id'],
 							'class' => 'input_cantidad'
@@ -86,6 +87,10 @@ if (!empty($articulos)) {
 <script>
 function activar(id){
 	val = $('input#activo_'+id).val('1');
+	if ($('#'+id).val() == '' || $('#'+id).val() == null || $('#'+id).val() <= 0) {
+		event.preventDefault();
+		alert('La cantidad debe ser mayor a 0');
+	}
 }
 </script>
 <script>

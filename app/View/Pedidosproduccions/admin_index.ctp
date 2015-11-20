@@ -1,5 +1,5 @@
 <div class="wrap">
-<div class = "derecha">
+<div class = "">
 	<?php
 	echo $this->Html->link("Nueva Orden",array('controller' => 'articulosproduccions','action' => 'admin_catalogo'),array('class' => 'boton'));
 	echo '<br><br>';
