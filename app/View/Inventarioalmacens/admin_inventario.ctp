@@ -1,4 +1,5 @@
 <div class="wrap">
+<?php echo $this->Html->link('Ver Movimientos',array('controller' => 'inventarioalmacens', 'action' => 'admin_movimientos',$cat_id,$sub_id), array('class'=> 'boton'));?>
 <h1>Inventario Almacén</h1>
 <?php 
 	if (!empty($articulos)) {
