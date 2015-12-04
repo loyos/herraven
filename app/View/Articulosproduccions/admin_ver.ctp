@@ -1,6 +1,8 @@
 <div class="wrap">
 <?php
-echo $this->Html->link('Regresar',array('action' => 'admin_index'),array('class'=>'boton'));
+echo $this->Html->link('Regresar',array('action' => 'admin_index',$subcategoria_id),array('class'=>'boton','style' => 'margin-right:5px'));
+echo $this->Html->link('Editar',array('action' => 'admin_editar',$subcategoria_id,$articulo['Articulosproduccion']['id']),array('class'=>'boton','style' => 'margin-right:5px'));
+echo $this->Html->link('Eliminar',array('action' => 'admin_eliminar',$subcategoria_id,$articulo['Articulosproduccion']['id']),array('class'=>'boton'),'¿Estás seguro que deseas eliminar?');
 ?>
 <h1>Artículo</h1>
 <?php 

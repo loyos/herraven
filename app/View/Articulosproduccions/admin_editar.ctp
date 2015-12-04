@@ -1,6 +1,6 @@
 <div class="wrap">
 <?php
-echo $this->Html->link('Regresar',array('action' => 'admin_index'),array('class'=>'boton'));
+echo $this->Html->link('Regresar',array('action' => 'admin_ver',$id,$subcategoria_id),array('class'=>'boton'));
 ?>
 <h1><?php echo $titulo?></h1>
 <?php 
@@ -35,7 +35,12 @@ echo $this->Html->link('Regresar',array('action' => 'admin_index'),array('class'
 	echo '</td>';
 	echo '</tr>';
 	echo '<tr>';
-	echo '<td></td><td></td>';
+	echo '<td>Categoria</td>';
+	echo '<td>';
+	echo $this->Form->input('subcategoriaminumet_id',array(
+		'label' => false
+		));
+	echo '</td>';
 	echo '<td>Imagen (opcional)</td>';
 	echo '<td>';
 	echo $this->Form->file('Foto2',array(
@@ -74,6 +79,7 @@ echo $this->Html->link('Regresar',array('action' => 'admin_index'),array('class'
 	if (!empty($this->data['Articulosproduccion']['imagen'])) {
 		echo $this->Form->input('imagen',array('type'=>'hidden'));
 	}
+	echo $this->Form->input('subcategoria_id',array('type'=>'hidden','value' => $subcategoria_id));
 	echo $this->Form->submit('Guardar', array('class' => 'button'));
 	echo $this->Form->end;
 ?>
