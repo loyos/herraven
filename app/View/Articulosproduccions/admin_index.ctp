@@ -17,7 +17,32 @@ echo $this->Html->link('Agregar',array('action' => 'admin_editar',$subcategoria_
 		<?php
 		foreach($articulos as $c) {
 			echo '<tr>';
-			echo '<td>'.$this->Html->link($this->Html->image('articulosProduccion/'.$c['Articulosproduccion']['imagen'], array("width" => "100px",'class'=>'prim','data-fancybox-group' => '1')), "../img/articulosProduccion/".$c['Articulosproduccion']['imagen'], array('escape' => false, 'class'=>"fancybox primera",'data-fancybox-group' => '1',)). '</td>';
+			echo '<td>';
+			echo $this->Html->link(
+			$this->Html->image('articulosProduccion/'.$c['Articulosproduccion']['imagen'], array("width" => "100px",'class'=>'prim','data-fancybox-group' => '1')),
+			"../img/articulosProduccion/".$c['Articulosproduccion']['imagen'],
+			array('escape' => false, 'class'=>"fancybox primera",'data-fancybox-group' => $c['Articulosproduccion']['id'],)
+				);
+				
+				if(!empty($c['Articulosproduccion']['imagen1'])) { 
+					echo $this->Html->link(
+						$this->Html->image('articulosProduccion/'.$c['Articulosproduccion']['imagen1'], array('style'=>'display:none')),
+						"../img/articulosProduccion/".$c['Articulosproduccion']['imagen1'],
+						array('escape' => false, 'class'=>"fancybox",'data-fancybox-group' => $c['Articulosproduccion']['id'],)
+					);?>
+
+					<?php
+				}
+				if(!empty($c['Articulosproduccion']['imagen2'])) { 
+					echo $this->Html->link(
+						$this->Html->image('articulosProduccion/'.$c['Articulosproduccion']['imagen2'], array('style'=>'display:none')),
+						"../img/articulosProduccion/".$c['Articulosproduccion']['imagen2'],
+						array('escape' => false, 'class'=>"fancybox",'data-fancybox-group' => $c['Articulosproduccion']['id'],)
+					);?>
+
+					<?php
+				}
+			echo '</td>';
 			echo '<td>'.$c['Articulosproduccion']['codigo'].'</td>';
 			echo '<td>'.$c['Articulosproduccion']['descripcion'].'</td>';
 			echo '<td>'.$c['Materiasprimasproduccion']['descripcion'].'</td>';
@@ -35,21 +60,12 @@ $(document).ready(function() {
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var is_firefox = navigator.userAgent.indexOf("Firefox") != -1;
 	
-	$('.fancybox').fancybox();
+	$('.fancybox').fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 	
-	$('.fotos a').mouseenter(function() {
-		$(this).find('.prim').css('opacity','0.5');
-		if (is_chrome) {
-			// $(this).append('<?php echo $this->Html->image('icon_zoom.png',array('class'=>'zoom','style' => "position:absolute;",'width'=>'50px','height'=>'50px'))?>');
-				} else 
-			if(is_firefox) {
-				// $(this).append('<img src="img/icon_zoom.png" alt="" width="50px" height="50px" class = "zoom" style= "position:absolute;margin-top:70px; margin-left:-120px;"/>');
-			}
-	});
-	$('a.primera').mouseleave(function() {
-		$(this).find('.prim').css('opacity','1');
-		//$('.zoom').remove();
-	});
+	
 
 
 
