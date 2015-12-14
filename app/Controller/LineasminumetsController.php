@@ -25,7 +25,7 @@ class LineasminumetsController extends AppController {
 
 					$articulos = $this->Articulosproduccion->find('all',array(
 
-						'conditions' => array('Articulo.subcategoria_id' => $sub['id'])
+						'conditions' => array('ArticulosProduccion.subcategoriaminumet_id' => $sub['id'])
 
 					));
 
